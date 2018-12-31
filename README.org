@@ -1,7 +1,22 @@
 
-* Lab 0
+* Researchera pre
 
-This lab aims to get you up and running with the software packages we'll be using for this course's lab.
+This notebook aims to get you up and running with the software packages, and
+basic concepts, we'll be using for this course.
+
+Please go through the notebook, running the code and answering the questions in
+the appropriate notebook cells.
+
+If all of this material is new to you: don't worry. If you can finish this notebook, you'll finish this course with a strong understanding of machine learning and how to apply it.
+
+If you already know all of the technical details covered here, don't despair. The reading material at the end will be new to you.
+
+** Platform notes
+
+These instructions have been tested on MacOS Mojave and Ubuntu 18.04.
+
+If you are using Windows, and any of the pre-requisites below give you a hard
+time, I recommend you [[https://hub.docker.com/r/jupyter/scipy-notebook/][use Docker to run Jupyter notebook images]].
 
 ** Pre-reqs
 
@@ -9,9 +24,9 @@ You will need to install some software to run this lab. After doing these steps,
 
 - *Python 3*. In a terminal window, try typing =python3 --version=. If it reads some number > 3, you are good to go! If not, [[https://www.python.org/downloads/release/python-360/][install Python3.6 for your platform]].
 - *Jupyter notebooks*. You can [[https://jupyter.org/install.html][download the notebook installer here]].
-- *XGBoost*. You can follow the setup instructions [[https://xgboost.readthedocs.io/en/latest/build.html][on the XGBoost documentation]].
-- *sklearn* and *pandas*. If you installed Python with Anaconda, you should already have these libraries. If not, you should be able to simply =pip3 install sklearn pandas=.
+- *sklearn* and *pandas*. If you installed Python with Anaconda, you should already have these libraries. If not, you should be able to simply =python3 -m pip install --user matplotlib sklearn pandas=.
+- *XGBoost*. You should be able to =python3 -m pip install --user xgboost=0.80=. Let me know if not.
 
 ** Completing this lab
 
-Simply open the Jupyter notebook in this repo and complete the instructions!
+Simply open the Jupyter notebook here and complete the instructions!
